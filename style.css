@@ -1,0 +1,129 @@
+body {
+    background: #97CCB1;
+    margin:0px;
+    padding:0px;
+    font: 16px 'Helvetica';
+	}
+.zag {
+max-width: 100%;
+margin: 0 auto;
+padding: 0;
+background-color: rgba(106, 161, 133, 0.6);
+text-align: center;
+}
+.term {
+  float: left;
+  width: 20%;
+  overflow: hidden;
+  margin: 25px;
+  padding: 5px;
+  background-color: #88b39c;
+  text-indent : -15px;
+}
+ 
+.pract {
+  overflow: hidden;
+  margin: 25px;
+  padding: 5px;
+  border: 5px solid #FF7F50;
+}
+.osn {
+max-width: 95%;
+margin: 0 auto;
+margin-top: 25px;
+margin-bottom: 25px;
+padding: 5px;
+background-color: rgba(255, 255, 255, 0.7);
+text-indent : 20px
+}
+.opr {
+  text-align: center;
+   float: center;
+  width: 70%;
+  overflow: hidden;
+  margin: 25px;
+  padding: 7px;
+  background-color: #FF7F50;
+  text-indent : -15px;
+  font-style: italic;
+  font-weight: bold;
+}
+h1 {
+    	margin-top: 0;
+	margin-bottom: -10px;
+	font-size: 30px;
+   	color: #ffffff;	  
+}
+h2 {
+	font-size: 20px;
+	color: #ffffff;
+	margin-bottom: 3px;
+	}
+h3 {
+	text-align: center;
+	font-size: 18px;
+	}
+   .border {
+    border: 5px solid #88b39c;
+   }
+ul {
+    list-style: none;
+    background-color: #77ba99;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 5px;
+}
+ul:after {
+    display: block;
+    float: none;
+    clear: both;
+}
+ul.menu-main > li {
+    float: left;
+    position:relative;
+}
+ul.menu-main > li > a {
+    display: block;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #77ba99;
+}
+ul.menu-main > li > a:hover {
+    background-color: #eda44a;
+}
+ul.menu-dop {
+    position: absolute;
+    width: 240px;
+    top: 37px;
+    left:0px;
+    display: none;
+    background-color: #77ba99;
+}
+ul.menu-dop > li {
+    display: block;
+}
+ul.menu-dop > li > a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #77ba99;
+}
+ul.menu-dop > li > a:hover {
+    background-color: #eb9b3b;
+    text-decoration: none;
+}
+ul.menu-main > li:hover > ul.menu-dop {
+    display: block;
+}
+table,td,th {
+   border-collapse: collapse;
+   border:5px solid #88b39c;
+   text-align: center;
+   background: rgba(255, 255, 255, 0.5);
+}
+.sp {
+	margin-left: 300px;
+}
